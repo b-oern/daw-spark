@@ -19,6 +19,9 @@ list_rdd = spark.sparkContext.parallelize(data_list)
 list_rdd.first()
 ```
 
+## Was ist Spark?
+Apache Spark ist ein Big Data Datenanalyse Framework. Im unterschied zu Bibliotheken wie Pandas ermöglicht Spark die Analyse von Daten in einem Cluster. Die Benutzung unterscheidet sich jedoch kaum von Pandas.
+
 ## Forken
 
 Die GitPod-URL muss in der README.md angepasst werden.
