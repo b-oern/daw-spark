@@ -18,3 +18,7 @@ data_list = ["a", "b", "c", "d", "e", "f", "g", "h"]
 list_rdd = spark.sparkContext.parallelize(data_list)
 list_rdd.first()
 ```
+
+## Forken
+
+Die GitPod-URL muss in der README.md angepasst werden.
