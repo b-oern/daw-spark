@@ -9,6 +9,12 @@ Lokal ausführen:
 docker-compose up
 ```
 
+## Master
+
+```
+docker inspect daw-spark-spark-1 | grep "IPAddress"
+```
+
 ## Beispiele in Python
 
 ```
