@@ -3,6 +3,10 @@ tasks:
       docker-compose pull
   - command: |
       docker-compose up
+  - command: |
+      pip install pyspark
+  - command: |
+      pip install pandas
 ports:
   - port: 9090
     onOpen: open-browser
